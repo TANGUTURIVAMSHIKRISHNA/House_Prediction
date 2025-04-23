@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved model
-model = pickle.load(open(r"C:\Users\Plhv\VS_Code\House_prediction\linear_regression_model_House.pkl","rb"))
+model = pickle.load(open('linear_regression_model_House.pkl',"rb"))
 
 
 # Set the title of the Streamlit app
